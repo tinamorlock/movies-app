@@ -1,0 +1,19 @@
+{% extends 'movies/_base.html' %}
+{% load static %}
+        {% block content %}
+        <h1>About My Favorite Movies</h1>
+             <div class="about-container">
+        <img src="{% static 'movies/images/tina.jpg' %}" alt="Image of Tina Morlock">
+        <div class="about-text">
+
+            <p>Here are some of my favorite types of films:</p>
+            <ul>
+                <li>Comedy</li>
+                <li>Horror</li>
+                <li>Science Fiction</li>
+                <li>True Crime</li>
+                <li>Thriller</li>
+            </ul>
+        </div>
+    </div>
+        {% endblock %}
